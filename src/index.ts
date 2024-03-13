@@ -7,7 +7,7 @@ import { readData } from "./queries/readDate";
   // await dropTable("posts");
   // const create = await prismaCreate();
 
-  const allDate = await readData({ limit: 5, page: 0 })
+  const allDate = await readData({ limit: 10, page: 0 })
 
 
   console.log(allDate);
